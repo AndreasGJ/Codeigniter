@@ -8,7 +8,7 @@ An action is a function which dont return anything, but execute something.
 
 ### Add new action
 You can add a new action with the following code:
-```javascript
+```php
 $this->event_handler->add_action("filter-name", function(){
 	// Do action here
 }, 10);
@@ -19,7 +19,7 @@ A filter is a function which return something, and modifies a value.
 
 ### Add new filter
 You can add a new filter with the following code:
-```javascript
+```php
 $this->event_handler->add_filter("filter-name", function($value){
 	// Modify $value here
 	return $value;
