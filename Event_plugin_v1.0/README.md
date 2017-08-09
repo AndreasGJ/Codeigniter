@@ -11,7 +11,8 @@ You can add a new action with the following code:
 ```javascript
 $this->event_handler->add_action("filter-name", function(){
 	// Do action here
-}, 10);```
+}, 10);
+```
 
 ## Filters
 A filter is a function which return something, and modifies a value.
@@ -22,4 +23,5 @@ You can add a new filter with the following code:
 $this->event_handler->add_filter("filter-name", function($value){
 	// Modify $value here
 	return $value;
-}, 10);```
+}, 10);
+```
