@@ -14,6 +14,12 @@ $this->event_handler->add_action("filter-name", function(){
 }, 10);
 ```
 
+### Do action
+You can add a new action with the following code:
+```php
+$this->event_handler->do_action("filter-name");
+```
+
 ## Filters
 A filter is a function which return something, and modifies a value.
 
